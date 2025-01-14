@@ -19,7 +19,7 @@
 
 #drawingpad {
     position: absolute;
-    bottom: -35vh;    /* 5% of the viewport height */
+    bottom: -45vh;    /* 5% of the viewport height */
     left: 60vw;     /* 10% of the viewport width */
 }
 
