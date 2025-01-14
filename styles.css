@@ -1,0 +1,67 @@
+#div1 {
+    position: relative; /* or absolute, fixed */
+    width: 50%;
+    border: 25px solid rgb(136, 136, 136);
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    bottom: -280px;
+}
+
+#coolword {
+    font-size: 4rem;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    position: absolute;
+    bottom: 25vh;    /* 5% of the viewport height */
+    left: 350px;     /* 10% of the viewport width */
+  }
+
+#drawingpad {
+    position: absolute;
+    bottom: -35vh;    /* 5% of the viewport height */
+    left: 60vw;     /* 10% of the viewport width */
+}
+
+
+#Camera {
+    margin: auto;
+    transform: translate(0px, -1000px);
+    transition: all 1s ease;
+}
+
+
+#txt2 {
+    font-family: "Comic Sans MS";
+    color: inherit; /* Ensures text color is inherited from parent */
+    font-size: 20px;
+}
+
+#txt1 {
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    color: inherit; /* Ensures text color is inherited from parent */
+    text-decoration: none; /* Removes underline */
+    display: inline-block; /* Allows transform and positioning */
+    transform: translate(25px, 0px); /* Moves the element 3px right */
+    transition: all 0.3s ease;
+}
+
+#txt1:hover {
+    transform: translate(27px, 0px);
+    color: rgb(46, 138, 167); /* Ensures text color is inherited from parent */
+}
+
+body {
+    background-color: rgb(174, 216, 230);
+}
+
+#container {
+    width: 300px;  /* 80% of the window width */
+    height: 250px;  /* Fixed height */
+    margin: 0 auto;
+    position: absolute;  /* Allow for positioning */
+    top: 10px;  /* Set top position */
+    left: 10px;  /* Set left position */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
