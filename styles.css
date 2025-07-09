@@ -20,7 +20,7 @@
     font-family: "Comic Sans MS";
     font-weight: bold;
     position: absolute;
-    bottom: 25vh;    /* 5% of the viewport height */
+    bottom: 35vh;    /* 5% of the viewport height */
     left: 350px;     /* 10% of the viewport width */
   }
 
